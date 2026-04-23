@@ -19,7 +19,7 @@ def select_agents(input_data):
             "actor": input_data["actor"],
             "action": input_data["action"],
             "agents": agents,
-            "sequence": agents,  # deterministic sequence
+            "sequence": agents, 
             "context": input_data["context"]
         }
 
